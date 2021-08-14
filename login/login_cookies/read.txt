@@ -1,1 +1,1 @@
-
+运行get_cookies.py程序后，得到的json文件在此文件夹。
