@@ -3,20 +3,9 @@ import time
 import json
 from selenium.webdriver.chrome.webdriver import WebDriver
 
-# json文件里有IP、账号、密码
+# 需要修改网站名和网站连接
 file = open("get_cookies.json")
 t = json.load(file)
-
-"""
-#代理IP
-import urllib.request
-proxy_support = urllib.request.ProxyHandler({'http': 'localhost:1080'})
-opener = urllib.request.build_opener(proxy_support)
-urllib.request.install_opener(opener)
-
-a = urllib.request.urlopen("https://www.baidu.com")
-print(a.read())
-"""
 
 
 def get_cookies(web):
